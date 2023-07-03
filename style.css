@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'RubikPixels';
+    font-style: normal;
+    font-weight: normal;
+    src: local('RubikPixels'), url("assets/fonts/RubikPixels-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Pixellari';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pixellari'), url("assets/fonts/Pixellari.ttf") format("truetype");
+}
+
+.maniko_head_container {
+    border: 5px solid;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.wip_container {
+    font-family: 'RubikPixels';
+    font-size: 350%;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+img {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.lily_image {
+    flex-basis: 25%;
+}
+
+.global_wip_container {
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.maniko_title {
+    font-family: 'RubikPixels';
+    font-size: 150%;
+}
+
+.text_container {
+    font-family: 'Pixellari';
+    margin: auto;
+    width: 75%;
+    justify-content: center;
+}
